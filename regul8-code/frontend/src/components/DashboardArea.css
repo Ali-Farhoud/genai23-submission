@@ -1,0 +1,43 @@
+.selection{
+    background-color: #1CABE2;
+}
+.selection:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.dashboard-title{
+    color: #1CABE2;
+    font-weight: bold;
+}
+.main-board{
+   
+    
+}
+.map{
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+.pan-area{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -1px -2px 11px 3px rgba(237,225,225,0.86);
+-webkit-box-shadow: -1px -2px 11px 3px rgba(237,225,225,0.86);
+-moz-box-shadow: -1px -2px 11px 3px rgba(237,225,225,0.86);
+}
+/* YourComponent.css */
+
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px; /* Adjust the margin as needed */
+  
+  }
+
+  .back-arrow{
+    cursor: pointer;
+  }
+
+  .display-btn{
+    font-size: 30px;
+  }
+  

@@ -1,0 +1,107 @@
+/* ChatBox.css */
+.click-to-chat{
+  cursor: pointer;
+  background-color: #fff; /* Set background color */
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border if desired */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.chat-box {
+  width: 600px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 80vh;
+}
+
+.chat-header {
+  background-color: #4c7faf;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+.chat-content {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.message {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.from-bot {
+  background-color: #eee;
+}
+
+.from-user {
+  background-color: #d4eaff;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-footer{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.chat-body{
+  overflow-y:auto;
+}
+
+.message-input:focus{
+  outline: none;
+}
+.message-input{
+  outline: none;
+  border: none;
+}
+.sent{
+  background-color: blue;
+  text-align: end;
+  color: white;
+}
+.main-chat{
+  border-left: 1px solid #000;
+}
