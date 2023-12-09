@@ -1,21 +1,27 @@
 This repo is our submission for QCRI Generative AI Hackathon 2023 ([website](https://genai23.qcri.org))
 
 
-Write Project Name
+RegAI
 ====
 
-Write Team Name:
+Regul8
 ==
-First Member (first_member@email.com)
-Second Memeber (second_member@email.com)
+Ali Farhoud (alifarhoud613@gmail.com)
+Fatima Tayab (fatimat@qmic.com)
+Osama Muhammad Khalid (osamam@qmic.com)
 
 Description
+
 ==
-This project is a template for submission to QCRI Generative AI Hackathon 2023. It does:
-1. submission should fork this project and update the README
-2. code and data should be contained in this repo
-3. README.md should keep the first and last line with reference to Generative AI Hackathon
-4. submit by Saturday 3:30 with this form [https://forms.office.com/r/PUs9qpVNbf](https://forms.office.com/r/PUs9qpVNbf)
+The system follows the RAG framework.
+The system consists of the vector database generated from a huge number of scraped documents related to our application.
+The embeddings were generated using OpenAI model "text-embedding-05" and stored locally in a vector store using ChromaDB.
+The system uses a specialised prompt that fills in the context using data retreived from the vector store based on the user question.
+This filled prompt is then forwarded to the LLM engine OpenAI "gpt-model-05" for final analysis and response.
+The prompt is engineered to force the LLM to use only the context to provide the answer and to keep the answer as clear and consise as possible.
+The prompt is also engineered to provide some extra information regarding the Internet Connectivity Penetration score of the specific country in question.
+The system exposes the LLM pipeline using REST API to our frontend written in React.
+The frontend allows the user to chat with the LLM as well as displaying relevent charts related to the data.
 
 
 This repo is our submission for QCRI Generative AI Hackathon 2023 ([website](https://genai23.qcri.org))
